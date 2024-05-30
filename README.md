@@ -2,7 +2,7 @@ This is my own personal understanding and coding based on **Observer's Design Pa
 
 For more information about this pattern you can read: https://refactoring.guru/design-patterns/observer
 
-## personal thoughts
+## Personal thoughts
 
 I see this conceptually as how Messaging tools and all the systems implemented around it work nowadays (AzureServiceBus, RabbitMq, Kakfa) as a default publisher/subscriber solution to deliver certain kind of 'Events'
 
