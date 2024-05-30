@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 
 
-var serviceProvider = BuildServiceProver();
+var serviceProvider = BuildServiceProvider();
 var subscribers = serviceProvider.GetRequiredService<IEnumerable<IBaseSubscriber<Event1>>>();
 
 var person = new Person(Guid.NewGuid(), "Michael Rozendo", new DateTime(1998, 03, 11));
@@ -30,7 +30,7 @@ if (successfullyDeliverys is not null && successfullyDeliverys.Any())
     Console.WriteLine($"Other deliverys have been completed successfully");
 }
 
-static IServiceProvider BuildServiceProver()
+static IServiceProvider BuildServiceProvider()
 {
     var serviceCollection = new ServiceCollection();
 
