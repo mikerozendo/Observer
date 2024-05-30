@@ -8,3 +8,5 @@ I see this conceptually as how Messaging tools and all the systems implemented a
 
 Thinking in a more general purpose code level, I can even see it as some kind of a processing pipeline, 
 all managed by a Handler that knows how to deliver an Event to all the parts that needs to do something with it in a independent way.
+
+This is just a POC!
