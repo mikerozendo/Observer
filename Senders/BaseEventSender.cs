@@ -12,8 +12,9 @@ public class BaseEventSender<TEvent>(IEnumerable<IBaseSubscriber<TEvent>> subscr
 
         var tasks = subscribers.Select(
             async subscriber =>
-            await subscriber.HandleAsync(baseEvent)).ToList().Select(x => x.ContinueWith(z => z.Result).Result);
+            await subscriber.HandleAsync(baseEvent)).ToList();
 
-        return tasks;
+        var expectableTasks = Task.WhenAll(tasks);
+        return await expectableTasks;
     }
 }
