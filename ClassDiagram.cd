@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Observer.Entities.Person" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="1.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.671" />
+  </Class>
+  <Class Name="Observer.Events.BaseEvent">
+    <Position X="5.25" Y="4.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\BaseEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer.Events.Event1" Collapsed="true">
+    <Position X="5.25" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\Event1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer.Senders.BaseEventSender&lt;TEvent&gt;">
+    <Position X="14.5" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Senders\BaseEventSender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer.Services.Subscribers.BaseSubscriber&lt;TEvent&gt;">
+    <Position X="5.25" Y="1.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Subscribers\BaseSubscriber.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.58" />
+  </Class>
+  <Class Name="Observer.Services.Subscribers.Subscriber1">
+    <Position X="8.75" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Subscribers\Subscriber1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer.Services.Subscribers.Subscriber2">
+    <Position X="1.5" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Subscribers\Subscriber2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer.Services.Subscribers.Subscriber3">
+    <Position X="5.25" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Subscribers\Subscriber3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Observer.Interfaces.IPayloadData" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPayloadData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Observer.Services.Subscribers.Interfaces.IBaseSubscriber&lt;TEvent&gt;">
+    <Position X="9.75" Y="1.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Subscribers\Interfaces\IBaseSubscriber.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
